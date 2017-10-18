@@ -7,6 +7,7 @@ from employees where hire_date = (
   select hire_date from employees where emp_no = 101010
 );
 
+
 # 2. Find all the titles held by all employees with the first name Aamod.
 #
 # 314 total titles, 6 unique titles
